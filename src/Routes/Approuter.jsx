@@ -2,7 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import LoginPage from "../components/LoginPage";
 import Main from "../core/Main";
 import VerifyOtp from "../shared/components/Login/veifyOtp";
-import AdminRouter from "../Admin/Router/Adminrouter";
+import AdminRouter from "../admin/Router/Adminrouter";
 import ProtectedRoute from "../shared/services/token/ProtectedRoute";
 import AboutUs from "../shared/components/AboutUs/Aboutus";
 import ScrollToTop from "./ScrollToTop";
