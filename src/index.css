@@ -1,0 +1,9 @@
+@import "@flaticon/flaticon-uicons/css/all/all";
+
+@import "tailwindcss";
+
+@import "../node_modules/preline/variants.css";
+
+.curved-clip {
+    clip-path: ellipse(100% 100% at 50% 0%);
+}
